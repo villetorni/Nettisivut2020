@@ -3,11 +3,26 @@
 	<head>
 		<title>Next Level Café</title>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="tyyli.css">
 		</head>
 		<body>
 		
-		<h1><img src="NextLevelLogo.png" alt="logo" style="width:300px;height:300px;"><br></h1>
+		<h1>
+		<picture>
+		
+		<source media="(min-width: 350px)"
+		srcset="NextLevelLogo.png 500w,
+				NextLevelLogo_pienempi.png 300w"
+		sizes="50vw">
+		
+		<img src="NextLevelLogo.png" atl="logo" style="max-width:100%;width:300px;height:300px;">
+		
+		
+		</picture>
+		<br>
+		</h1>
+		
 		<div class="topnav">
 			<a href="NextLevelCafe.html">Etusivu</a>
 			<br>
