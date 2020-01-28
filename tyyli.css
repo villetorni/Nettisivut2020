@@ -1,5 +1,7 @@
 body {
 	background-image: url("taustakuva1.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin: 0 20%;
 	font-family: Times New Roman;
 	}
@@ -14,15 +16,21 @@ body {
 	margin-top: 30px;
 	}
 	h2 {
-	color: #d1633c;
+	color: #43c949;
 	font-size: 2em;
 	}
 	p {
 	color: #ffffff;
 	font-size: 1.2em;
 	}
+	pre {
+		color: #ffffff;
+		font-size : 1.2em;
+	}
 	a {
 	color: #ffffff;
 	font-size: 1.0em;
 	float: center;
 	}
+
+
