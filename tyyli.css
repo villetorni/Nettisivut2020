@@ -1,5 +1,7 @@
 body {
 	background-image: url("taustakuva1.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin: 0 20%;
 	font-family: Times New Roman;
 	}
