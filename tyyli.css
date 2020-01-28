@@ -17,14 +17,41 @@ body {
 	}
 	h2 {
 	color: #43c949;
-	font-size: 2em;
+	text-shadow: 1px 3px black;
+	font-size: 2.2em;
 	}
+	* {
+		box-sizing: border-box;
+	}
+	.box {
+	float: left;
+	width: 25%;
+	padding: 10px;
+	}
+	.topnav:after {
+	content: "";
+	display: table;
+	clear: both;
+	}	
 	p {
 	color: #ffffff;
 	font-size: 1.2em;
 	}
 	a {
+	text-shadow: 1px 1px black;
+	background-color: #43c949;
+	padding: 5px 10px;
 	color: #ffffff;
-	font-size: 1.0em;
+	font-size: 1.5em;
 	float: center;
 	}
+	a:hover, a:active {
+		background-color: purple;
+	}
+	
+	
+	@media screen and (max-width: 800px) {
+	.box {
+    float: none;
+    display: block;
+  }
