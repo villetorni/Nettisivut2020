@@ -25,8 +25,9 @@ body {
 	}
 	.box {
 	float: left;
-	width: 25%;
+	width: 18%;
 	padding: 10px;
+	text-align: center;
 	}
 	.topnav:after {
 	content: "";
@@ -50,8 +51,18 @@ body {
 	}
 	
 	
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: 1500px) {
 	.box {
     float: none;
     display: block;
   }
+	h2 {
+	text-align: center;
+	}
+	p {
+	text-align: center;
+	}
+	.topnav {
+		width: 40%;
+		margin: 0 auto;
+	}
