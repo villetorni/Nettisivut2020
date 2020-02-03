@@ -12,7 +12,6 @@ body {
 	font-family: Times New Roman;
 	font-weigh: normal;
 	text-transform: uppercase;
-	border-bottom: 1px solid #000000;
 	margin-top: 30px;
 	}
 	h2 {
@@ -29,6 +28,9 @@ body {
 	padding: 10px;
 	text-align: center;
 	}
+	.topnav {
+	overflow: hidden;
+	}
 	.topnav:after {
 	content: "";
 	display: table;
@@ -39,12 +41,12 @@ body {
 	font-size: 1.2em;
 	}
 	a {
-	text-shadow: 1px 1px black;
-	background-color: #43c949;
-	padding: 5px 10px;
-	color: #ffffff;
-	font-size: 1.5em;
+	text-shadow: 2px 1px black;
+	padding: 1px 1px;
+	color: #43c949;
+	font-size: 1.6em;
 	float: center;
+	text-align: center;
 	}
 	a:hover, a:active {
 		background-color: purple;
