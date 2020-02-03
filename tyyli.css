@@ -28,9 +28,6 @@ body {
 	padding: 10px;
 	text-align: center;
 	}
-	.topnav {
-	overflow: hidden;
-	}
 	.topnav:after {
 	content: "";
 	display: table;
@@ -42,11 +39,10 @@ body {
 	}
 	a {
 	text-shadow: 2px 1px black;
-	padding: 1px 1px;
+	padding: 0px 0px;
 	color: #43c949;
-	font-size: 1.6em;
+	font-size: 1.5em;
 	float: center;
-	text-align: center;
 	}
 	a:hover, a:active {
 		background-color: purple;
