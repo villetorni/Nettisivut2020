@@ -47,7 +47,18 @@ body {
 	a:hover, a:active {
 		background-color: purple;
 	}
-	
+	.right {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	}
+	.col-3 {
+			width: 60%;	
+			padding: 10px;
+			border-radius: 8px;
+		}
+		
 	
 	@media screen and (max-width: 1500px) {
 	.box {
@@ -63,4 +74,16 @@ body {
 	.topnav {
 		width: 40%;
 		margin: 0 auto;
+	}
+	.col-3 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	}
+	
+	@media screen and (min-width: 1510px) {
+	.col-3 {
+		float: right;
+	}
 	}
